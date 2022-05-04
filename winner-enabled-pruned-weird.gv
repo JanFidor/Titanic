@@ -1,0 +1,14 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	is_1st_class [fillcolor=lightgray shape=box style=filled]
+	is_2nd_class [fillcolor=lightgray shape=box style=filled]
+	is_3rd_class [fillcolor=lightgray shape=box style=filled]
+	Sex [fillcolor=lightgray shape=box style=filled]
+	Age [fillcolor=lightgray shape=box style=filled]
+	SibSp [fillcolor=lightgray shape=box style=filled]
+	Parch [fillcolor=lightgray shape=box style=filled]
+	Survived [fillcolor=lightblue style=filled]
+	is_3rd_class -> Survived [color=red penwidth=0.1667332549820797 style=solid]
+	Sex -> Survived [color=red penwidth=0.5158163054000575 style=solid]
+	Age -> Survived [color=red penwidth=0.20917097982949667 style=solid]
+}
